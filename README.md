@@ -43,6 +43,13 @@ git commit -m "write a meaningful message here"
 ```
 
 -Finally push your work to the remote repository
+
+this command for first time
+```
+git push --set-upstream origin main
+```
+
+future pushes just use this
 ```
 git push
 ```
