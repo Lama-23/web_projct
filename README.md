@@ -1,7 +1,7 @@
 <h3>How to start with Git and Github</h3>
 
 <ol>
-<li>First of all make a Github account and tell Lama to add you as a contributer</li>
+<li>First of all make a GitHub account and tell Lama to add you as a contributor </li>
 <li>Download Git from here <a>https://git-scm.com/downloads</a></li>
 <li>Download VSCode from here <a>https://code.visualstudio.com/download</a></li>
 <li>Make a new folder and <strong>give it a proper name <u style="color:red;"><em >PLEASE</em></u></strong></li>
@@ -33,7 +33,7 @@ now you can work on your own file, then do these instructions to keep the remote
 ```
 git pull origin main
 ```
--Next add your work to the staging directory, the dot here is important, you can replace it with the files you want to add but the dot will add everything
+-Next, add your work to the staging directory, the dot here is important, you can replace it with the files you want to add but the dot will add everything
 ```
 git add .
 ```
@@ -42,7 +42,7 @@ git add .
 git commit -m "write a meaningful message here"
 ```
 
--Finally push your work to the remote repository
+-Finally, push your work to the remote repository
 
 this command for first time
 ```
