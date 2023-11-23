@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:sans-serif;
+    font-family:"Times New Roman", Times, serif;
+    
 }
 .container{
     width:100vw;
@@ -52,10 +53,61 @@ nav ul li a{
 }
 .col h1{
     color: #fff;
-    font-size: 50px;
+    font-size: 35px;
+    
 }
 .col p{
     color: #fff;
     font-size: 15px;
     line-height: 16px;
+
+}
+.col button{
+    width: 10vw;
+    color: #000;
+    font-size: 12px;
+    padding: 6px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    margin-top: 15px;
+}
+.card{
+width: 200px;
+height: 230px;
+display: inline-block;
+border-radius: 8px;
+padding: 20px 25px;
+box-sizing: border-box;
+background-position: center;
+background-size: cover;
+transition: transform 0.5s;
+margin: 10px;
+
+}
+.card1{
+    background-image: url(img/theLine.jpg);
+
+}.card2{
+    background-image: url(img/leyja.jpg);
+
+}.card3{
+    background-image: url(img/oxagon.jpg);
+
+}
+.card4{
+    background-image: url(img/trojena.jpg);
+
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card h5{
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+color: #000;
+    text-shadow: 0 0 5px #726d6d;
+
 }
