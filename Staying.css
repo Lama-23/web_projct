@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+body{
+background-color:#414146;
 }
 /* navbar*/
 .navbar{
@@ -85,6 +89,42 @@ a {
     cursor: pointer;
     display: none;
 }
+/* regions*/
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    text-shadow: 4px 4px 10px #442b2b;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    border: 3px solid red;
+    
+}
+.row .colm img{
+    width: 60%;
+    margin-left: 10%;
+margin-right: 20%;  
+  border-radius: 5px;
+}
+.row h4,p{
+    margin-left: 10%;
+    margin-bottom: 5%;
+
+
+}
+.row .ctn{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: -10%;
+}
+
 /**/
 /* responsiv for mobile device*/
 @media only screen and (max-width:850px){
@@ -104,7 +144,7 @@ a {
         width: 100%;
         height: 100vh;
         justify-content: center;
-        background-color: #414146bd;
+        background-color: #414146;
         margin-top: -900px;
         transition: all 0.5s;
     }
