@@ -104,15 +104,27 @@ section{
 .row{
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 80vw;
+    hight:100vh;
     justify-content: space-between;
+    /* border: 3px solid red; */
     
 }
-.row .colm{
-    display: flex;
-align-items: center;  
-flex-direction: column;}
-.regions .row{
+.row .colm img{
+    width: 30vw;
+    height: 30vh;
+    margin-left: 5vw;
+margin-right: 10vw;  
+  border-radius: 5px;
+  
+}
+.row h4,p{
+    margin-left: 10%;
+    margin-bottom: 5%;
+
+
+}
+.row .ctn{
     margin-top: 50px;
 }
 .row h4{
