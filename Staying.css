@@ -4,8 +4,10 @@
     box-sizing: border-box;
 
 }
-body{
+body,html{
 background-color:#414146;
+/* overflow-x: hidden;*/
+
 }
 /* navbar*/
 .navbar{
@@ -104,25 +106,25 @@ section{
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    border: 3px solid red;
     
 }
-.row .colm img{
-    width: 60%;
-    margin-left: 10%;
-margin-right: 20%;  
-  border-radius: 5px;
-}
-.row h4,p{
-    margin-left: 10%;
-    margin-bottom: 5%;
-
-
-}
-.row .ctn{
+.row .colm{
+    display: flex;
+align-items: center;  
+flex-direction: column;}
+.regions .row{
     margin-top: 50px;
-    margin-left: 10%;
-    margin-right: -10%;
+}
+.row h4{
+    font-size: 3vmin;
+    margin: 20px auto;
+}
+.row p{
+    padding: 0px 40px;
+}
+.regions .ctn{
+    margin-top: 30px;
+   
 }
 
 /**/
