@@ -5,8 +5,8 @@
 
 }
 body,html{
-background-color:#414146;
-/* overflow-x: hidden;*/
+background-color:#0f0f0f8e;
+overflow-x: hidden;
 
 }
 /* navbar*/
@@ -42,8 +42,7 @@ margin: 0 30px;
 header{
     width: 100vw;
     height: 100vh;
-    background-image: url(img/background3.png);
-    background-repeat: no-repeat;
+    background-image: url(img/b.png);
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -62,11 +61,11 @@ a {
     font-size: 4vmin;
 }
 .line{
-    width: 150px;
+    width: 500px;
     height: 4px;
-    background: #613737;
+    background: #464545;
     margin: 10px auto;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .header-content h1{
     font-size: 7vmin;
@@ -75,12 +74,12 @@ a {
 }
 .ctn{
     padding: 8px 15px;
-    background-color:#613737 ;
+    background-color:#464545 ;
     border-radius: 30px;
     color: whitesmoke;
 }
 .logo{
-    width: 88px;
+    width: 90px;
     cursor: pointer;
 }
 .menu{
@@ -99,7 +98,7 @@ section{
 .title{
     text-align: center;
     font-size: 4vmin;
-    text-shadow: 4px 4px 10px #442b2b;
+    text-shadow: 4px 4px 10px #636363;
 }
 .row{
     display: flex;
@@ -124,19 +123,53 @@ margin-right: 10vw;
 
 
 }
-.row .ctn{
-    margin-top: 50px;
-}
+
 .row h4{
     font-size: 3vmin;
-    margin: 20px auto;
+    margin: 20px auto;   
+     margin-left: 20%;
+
 }
 .row p{
     padding: 0px 40px;
+    margin-bottom: 5%;
 }
 .regions .ctn{
-    margin-top: 30px;
+    margin-left: 30%;
    
+}
+/*Oxagena */
+
+.explore{
+width: 100%;
+height: 100vh;
+background-image: url(img/oxagon.jpg);
+background-position:center;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 10px;
+display: flex;
+align-items: center;
+}
+.explore-content{
+width: 30vw;
+height: 20vh;
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+.explore-content h1{
+    font-size: 7vmin;
+    margin: 50px;
+}
+/*footer*/
+.footer{
+    width: 100%;
+    height: 150px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #202020;
+    text-align: center;
 }
 
 /**/
