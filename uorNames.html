@@ -24,11 +24,15 @@
 </ul>
 
   <script>
-   const list=document.getElementById("Name");
-  const item=Array.from(list.children);
-  item.sort(()=>Math.random()-0.5);
-  list.innerHTML='';
-  item.forEach(item=>{list.appendChild(item)});
+   window.onload=function(){
+    getrandomname();
+   }
+function  getrandomname(){
+  var N =document.getElementById("Name");
+  for (var i =N.children.length;i >=0;i++){
+    N.appendChild(N.children[Math.random()* i | 0]);
+  }
+}
 
   </script>
 </body>
