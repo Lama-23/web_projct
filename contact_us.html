@@ -1,2 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        #A{
+            display:flex;
+            background-position: center;
+            background-size:cover;
+            background-repeat: no-repeat; 
+            width:auto; 
+            background-attachment: fixed; 
+        }
+        *{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ body{
+justify-content: left;
+align-items: center;
+height: 100vh;
+ }
+ form{
+padding: 10px;
+ width: 40%;
+ display: flex;
+flex-wrap: wrap;
+gap: 7px;
+}
+form input , textarea{
+width: 600px;
+padding:12px;
+border-radius: 8px;
+border: none;
+background-color: rgb(236, 218, 194, 0.7);
+color: #333; 
+}
+input:focus, textarea:focus{
+outline: none;
+ box-shadow: 0 0 8px #ffeeae;
+}
+   form button{
+       display: inline-block;
+       padding: 12px 24px ;
+       background-color: bisque;
+       color: black;
+       border: none;
+       cursor: pointer;
+       border-radius: 10px;
+   }
+   button:hover{
+       background-color: #bbb;
+   }
+   .container h2 {
+       text-align:left;
+       font-size: 40px;
+       margin-bottom: 5px;
+       margin-left: 200px;
+       color: rgba(247, 240, 184, 0.898);
+   }
+   .conf h3{
+   font-size: 24px;
+   margin-left:10px;
+   color: rgb(252, 223,177);
+}
 
+    </style>
+</head>
+<body style="background-image:url('img/neom.jpeg')"; id="A";>
+   <div class ="container">
+    <h2>Contac Us</h2>
+    <div class ="conf">
+        <h3 style="text-align: left;">send us a massage</h3>
+    <form  action="cc.html">
+        <label for="na1" style="color: rgb(176, 121, 85);font-family: 'Times New Roman', Times, serif; font-size: 20PX;">Name </label>
+        <input type="text" id="na1" name="name" placeholder="your name" required><br>
+        <label for="em1" style="color: rgb(176, 121, 85);font-family: 'Times New Roman', Times, serif;font-size:20PX ;">Email</label>
+        <input type="email" id="em1" name="email" placeholder="info@gmail.com" required>
+        <label for="tel1" style="color:rgb(176, 121, 85);font-family: 'Times New Roman', Times, serif;font-size:20PX ;">Phone number</label>
+        <input type="tel" id="tel1" name="tele" placeholder="0504379824" pattern="[0-9]{10}"required>
+        <textarea name="massage" placeholder="your massage" required></textarea>
+        <button type="submit"style="font-size: 20px;">Submit</button>
+    </form>
+    </div>
+</div>
+</body>
+</html>
  
