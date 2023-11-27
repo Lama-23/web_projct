@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Members Information</title>
+    <style>
+        body{
+        background-color: rgba(0, 0, 0);
+        background-position: right top;
+        background-repeat:no-repeat;
+        background-image: url('https://mir-s3-cdn-cf.behance.net/projects/404/d1ffbf178911295.Y3JvcCwxMjQyLDk3MSwwLDEzNQ.jpg');
+        }
+    </style>
+</head>
+<body >
+  <h1 style="font-family: 'Times New Roman', Times, serif;color: rgb(62, 154, 81)">Student's Names</h1>
+
+  <ul style="list-style-type:square; color: rgb(153, 158, 185);font-size: 25px;"   id="Name">
+<li> Sadeel Suliman </li>
+<li > Lama marzouq </li>
+<li > Arwa Mohammed </li>
+<li >Ghada fwaz </li>
+</ul>
+
+  <script>
+   const list=document.getElementById("Name");
+  const item=Array.from(list.children);
+  item.sort(()=>Math.random()-0.5);
+  list.innerHTML='';
+  item.forEach(item=>{list.appendChild(item)});
+
+  </script>
+</body>
+</html>
