@@ -62,7 +62,7 @@ nav{
     text-align: right;
 }
 nav ul li{
-    list-style: none;
+    list-style:none;
     display: inline-block;
     margin: 0 30px;
 }
