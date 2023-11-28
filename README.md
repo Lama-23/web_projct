@@ -27,12 +27,8 @@ git branch -M main
 ```
 git pull origin main
 ```
-now you can work on your own file, then do these instructions to keep the remote repository up to date
+every time you want to work pull first, now you can work on your own file, then do these instructions to keep the remote repository up to date.
 
--You have to pull first to get the latest version
-```
-git pull origin main
-```
 -Next, add your work to the staging directory, the dot here is important, you can replace it with the files you want to add but the dot will add everything
 ```
 git add .
@@ -48,6 +44,13 @@ this command for first time
 ```
 git push --set-upstream origin main
 ```
+
+-Sometimes, when you push and someone just before you pushed, an error will appear to you, so you have to pull and get the new changes before you push
+
+```
+git pull origin main
+```
+
 
 future pushes just use this
 ```
