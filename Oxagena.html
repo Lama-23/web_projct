@@ -1,15 +1,14 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> OXAGON ISLAND</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
     
     <style>
             body {
-            font-family: 'Arial', sans-serif;
+            font-family:"Times New Roman", Times, serif;         
             margin: 0;
             padding: 0;
             background-image: linear-gradient(to right,rgb(77, 62, 48),rgb(168, 226, 238));
@@ -19,19 +18,19 @@
         }
 
         header {
-            background-image: url('img/oxagon.jpg');
+            background-image: url('img/OXAGON-11jpg.jpg');
              /* Replace 'your_image_url.jpg' with the actual path to your image */
             background-size: cover;
             background-position: center;
             color:azure; /* Text color on top of the background image */
             text-align: center;
-            padding: 100px 0; /* Adjust padding as needed */
+            padding: 60px 0; /* Adjust padding as needed */
             position: relative; /* Required for positioning the overlay div */
             filter: blur(0.2px)
         }
 
         .image-overlay {
-            position: absolute;
+            position:absolute;
             top: 0;
             left: 0;
             width: 100%;
@@ -39,112 +38,64 @@
             background-color: rgba(0, 0, 0, 0.285); /* Adjust the opacity here (0.5 is 50% opacity) */
             }
 
-        header h1{
-            font-size: 100px;
-            
-        }
+        header h1 {font-size: 100px; }
 
         nav {
         background-color: #000000;
-        padding: 1em;
-    }
+        padding: 1em;}
 
-    ul {
-        list-style: none;
+    ul { list-style: none;
         padding: 0;
         margin: 0;
         display: flex;
-        justify-content: center;
-    }
+        justify-content: center; }
 
-    li {
-        margin: 0 40px;
-    }
+    li {  margin: 0 40px; }
 
-    a {
-        text-decoration: none;
+    a { text-decoration: none;
         color: #fff;
         transition: color 0.3s ease; 
-        font-size: 20px;
-    }
+        font-size: 20px; }
 
     a:hover,
-    a:active {
-        color: #3498db; /* Change color on hover or active state */
-    }
+    a:active {   color: #3498db; /* Change color on hover or active state */   }
 
-    section {
-            max-width: 800px;
+    section {max-width: 800px;
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: left;
-            border-radius: 10px;
-        }
-        #about {
-            background-color: #f8f8f8;
-            padding: 20px;
-        }
+            border-radius: 10px;   }
 
-        #about p{
-            color: #555;
-            line-height: 1.8;
-            font-size: 18px;
-            font-weight: 400;
-        }
+        #about {  background-color: #f8f8f8;
+            padding: 20px; }
+
+        #about p{  color:  #555;
+                   line-height: 1.8;
+                   font-size: 18px;
+                   font-weight: 400; }
 
         #about h2{
             color: #276db4;
             border-bottom: 2px solid #276db4;
             padding-bottom: 5px;
-            margin-bottom: 20px;
-            
+            margin-bottom: 20px;  }
 
-        }
+        h2 {color: #333; }
 
-
-        h2 {
-            color: #333;
-        }
-
-        p {
-            color: #555;
-        }
-
-        h2 {
-            color: #2c3e50;
-            
-        }
-
-        p {
-            line-height: 1.6;
-        }
-
+        p  {color: #555;
+            line-height: 1.6; }
+        h1 { color: #2c3e50;}
+        h3 {text-align: left; }
         .hero {
-            background: url('')
-          center/cover no-repeat;
             color: #000000;
             text-align: center;
-            padding: 100px 0
+            padding: 30px 0
         }
-
         .hero h1 {
             font-size: 3em;
-            margin-bottom: 20px;
-        }
-
-        #back-to-top {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #2c3e50;
-            color: #fff;
-            padding: 10px;
-            display: none;
-            cursor: pointer;
-            border-radius: 50%;
-        }
+            margin-bottom: 10px;  }
 
         #weather-section {
             background-color: #020506;
@@ -179,7 +130,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            color: #fff;
+            color:  #fff;
             text-align: center;
         }
 
@@ -213,131 +164,139 @@
 
         .image-container {
             flex: 1;
-            margin-right: 10px;
+            margin-right: 20px;
             border-radius: 10px;
             overflow: hidden;
         }
 
         .image-container img {
-            width: 50%;
-            height: 50;
+            width: 100%;
+            height: auto;
             border-radius: 10px;
             display: block;
         }
 
-      #Industrial Model  .text-container {
+      #activities  .text-container {
             flex: 1;
             margin-left: 20px;
             text-align: left;
+            
         }
 
-       #Industrial Model h1 {
+       #activities h1 {
             color: #3498db;
             margin-bottom: 10px;
         }
 
-        #Industrial Model p {
+       #activities p {
             color: #555;
             line-height: 1.6;
         }
-
-
         
-        form {
-            max-width: 600px;
-            margin: 50px auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+       .table-box{
+    margin: 50px auto;
+    text-align: center;
+    color:#f3f0f0; }
 
-        label {
-            display: block;
-            margin-bottom: 8px;
-            color: #555;
-        }
+    .table-row{
+    display: table;
+    width: 50%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #fdfcfc;
+    font-size: 16px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+    }
+    .table-head{
+    background:rgba(255, 255, 255, 0.284);
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+    }
+    .table-head .table-cell{
+     border-right: none;
+    }
+    .table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+    }
+    .first-cell{
+    text-align: center;
+    padding-left: 10px;
+    }
 
-        input,
-        textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
-
-        button {
-            background-color: #3498db;
-            color: #fff;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        button:hover {
+        .Gallery{  display: flex;  }
+        .Gallery .item{
+            flex: 1;
             background-color: #2980b9;
+            height: 70vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center ;
+            transition: flex 1s ease-in-out;   }
+        .item-1{
+            background-image: url("img/OXAGON--3.jpg");
         }
-      
-        @media screen and (max-width: 600px) {
-            li {
-                margin: 10px 0;
-            }
+        .item-2{
+            background-image: url("img/OXAGON-cover.jpg");
         }
-    
-.navbar{
-    height: 12vh;
-    display: flex;
-    align-items: center;
-}
-.logo{
-    width: 50px;
-    cursor: pointer;
-}
+        .item-3{
+            background-image: url("img/OXAGON--6.jpg");
+        }
+        .item-4{
+            background-image: url("img/OXAGON-11jpg.jpg");
+        }
+        .Gallery .item:hover{
+            flex: 8;
+        }
+
     </style>
 </head>
-<body>
+<body>   
     <div class="navbar">
-        <img src="img/oxagon-logo.jpg" class="logo">
         </div>
     <header>
-        <h1> OXAGON ISLAND</h1>
+        <h1> OXAGON </h1>
     </header>
 
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#Industrial Model"> Industrial Model</a></li>
+            <li><a href="#activities">Industrial Model</a></li>
+            <li><a href="#time">Construction Completion Times </a></li>
             <li><a href="#gallery">Gallery</a></li>
+            
         </ul>
     </nav>
-
     <section id="weather-section">
         <div id="weather-info">
             <div class="weather-item">
                 <i class="weather-icon">🌍</i>
-                <span>Oxagon Island</span>
+                <span>OXAGON ISLAND</span>
             </div> 
 
             <div class="weather-item">
                 <i class="weather-icon">🌡️</i>
-                <span>25°C</span>
+                <span>20°C</span>
             </div>
             <div class="weather-item">
                 <i class="weather-icon">💨</i>
-                <span>15 km/h</span>
+                <span>10 km/h</span>
             </div>
             <div class="weather-item">
                 <i class="weather-icon">💧</i>
-                <span>60%</span>
+                <span>30%</span>
             </div>
         </div>
     </section>
     <div class="hero">
-        <h1>Welcome to OXAGON ISLAND</h1>
-        <p>Discover the beauty of this paradise in the heart of Saudi Arabia.</p>
+        <h1>Welcome to OXAGON Island</h1>
     </div>
     <section id="video">
         <h2>EXPLORE OXAGON ISLAND</h2>
@@ -356,30 +315,26 @@
              the goals of Vision 2030. Oxagon will contribute to redefining the world's direction towards future industrial
              development, as well as contributing to environmental protection, job creation and growth. It will also participate
               in supporting the Kingdom in the field of regional trade, in addition to supporting global trade flows in the region.
-            
-            
-        </p>
+            </p>
     </section>
-    <section id="Industrial Model">
+    <section id="activities">
         <h2>Industrial Model</h2>
-
         <div class="responsive-section">
             <div class="image-container">
                 <img src="img/advanced hero.jpg" alt="Responsive Image">
             </div>
             <div class="text-container">
                 <h1>Sectors Destination Advanced and clean</h1>
-                <p> OXAGON will be the gateway to NEOM's advanced and clean sectors and industries,
-                     where we will adopt unprecedented methodologies at the highest international levels to
-                      enable the factories of the future to manufacture the products of the future. We will build an 
-                      integrated industrial ecosystem that supports companies and businesses in their manufacturing 
-                      journey with the latest and most advanced technologies.</p>
+                <p>OXAGON will be the gateway to NEOM's advanced and clean sectors and industries,
+                    where we will adopt unprecedented methodologies at the highest international levels to
+                     enable the factories of the future to manufacture the products of the future. We will build an 
+                     integrated industrial ecosystem that supports companies and businesses in their manufacturing 
+                     journey with the latest and most advanced technologies.</p>
             </div>
         </div>
-
         <div class="responsive-section">
             <div class="image-container">
-                <img src="img/Research & Innovation.webp" alt="Responsive Image">
+                <img src="img/research hero.jpg" alt="Responsive Image">
             </div>
             <div class="text-container">
                 <h1>Research & Innovation</h1>
@@ -388,102 +343,83 @@
                     advanced and collaborative digital society. The R&I ecosystem will provide state-of-the-art 
                     facilities that enable innovators on their journey from idea to commercialization through
                      state-of-the-art facilities to support entrepreneurs, project development, manufacturing, and with 
-                     the help of a network of global experts.</p>
+                     the help of a network of global experts</p>
             </div>
         </div>
-
         <div class="responsive-section">
             <div class="image-container">
                 <img src="img/port-of-neom-hero.jpg" alt="Responsive Image">
             </div>
             <div class="text-container">
-                <h1> Port & Chains Supply & Services Logistics</h1>
+                <h1>Port & Chains Supply & Services Logistics</h1>
                 <p> OXAGON will build the world's first advanced and sustainable digital port
-                     that embraces next-generation technologies, integrates supply chains, logistics and a 
-                     freight delivery system by train, enhancing connectivity and access to global trade routes.
-                      Our supply chain platform will also serve NEOM's population and economy under the umbrella of 
-                      a unified network both physically and digitally.</p>
+                    that embraces next-generation technologies, integrates supply chains, logistics and a 
+                    freight delivery system by train, enhancing connectivity and access to global trade routes.
+                     Our supply chain platform will also serve NEOM's population and economy under the umbrella of 
+                     a unified network both physically and digitally.</p>
             </div>
         </div>
-
         <div class="responsive-section">
             <div class="image-container">
-                <img src="img/oxagon1.jpeg" alt="Responsive Image">
+                <img src="img/oxagon.jpg" alt="Responsive Image">
             </div>
             <div class="text-container">
                 <h1>Prosperous communities</h1>
                 <p>OXAGON is designing a new model for urban living. By redefining the concept of
-                     traditional industrial cities, we have a historic opportunity to start from scratch to 
-                     develop mixed-use communities centered around people, innovation and sustainability.</p>
+                    traditional industrial cities, we have a historic opportunity to start from scratch to 
+                    develop mixed-use communities centered around people, innovation and sustainability</p>
             </div>
         </div>
+        </section>
+        <section id="time">
+        <div class="table-box">
+            <h3>Construction Completion Times</h3>
+            <div class="table-row table-head">
+                <div class="table-cell first-cell">
+                    <p>OXAGON</p>
+                </div>
+                <div class="table-cell">
+                    <p>YEAR</p>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="table-cell first-cell">
+                    <p>Opening The Island</p>
+                </div>
+                <div class="table-cell">
+                    <p>IN 2026</p>
+                </div>
 
+            </div>
+            <div class="table-row">
+                <div class="table-cell first-cell">
+                    <p>Opening The Prosperous communities</p>
+                </div>
+                <div class="table-cell">
+                    <p>IN 2026</p>
+                </div>
+
+            </div>
+
+            <div class="table-row">
+                <div class="table-cell first-cell">
+                    <p>The Final Finish FOR SINDALAH</p>
+                </div>
+                <div class="table-cell">
+                    <p>IN 2028</p>
+                </div>
+            </div>
 
         </section>
-
     <section id="gallery">
-        <h2>Gallery</h2>
-        <div id="carouselExample" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/oxagon.2jpg.jpeg" class="d-block w-50 " alt="First Slide">
-                    <div class="carousel-text">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/oxagon.3jpg.jpeg" class="d-block w-50" alt="Second Slide">
-                    <div class="carousel-text">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/oxagon.4jpg.jpeg" class="d-block w-50" alt="Third Slide">
-                    <div class="carousel-text">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/oxagon1.jpeg" class="d-block w-50" alt="Third Slide">
-                    <div class="carousel-text">
-                    </div>
-    
-            </div>
-            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-        </section>
-    <div id="back-to-top">&uarr;</div>
-
-    <script>
-        // JavaScript to handle back-to-top arrow functionality
-        window.onscroll = function() {
-            scrollFunction();
-        };
-
-        function scrollFunction() {
-            var arrow = document.getElementById("back-to-top");
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                arrow.style.display = "block";
-            } else {
-                arrow.style.display = "none";
-            }
-        }
-
-        document.getElementById("back-to-top").addEventListener("click", function() {
-            topFunction();
-        });
-
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <div class ="container">
+   <h1> Gallery</h1>
+   <div class="Gallery">
+    <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+    <div class="item item-4"></div>
+   </div>
+    </div>
+    </section>
 </body>
-</html>
