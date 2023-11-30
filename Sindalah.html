@@ -1,16 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/sindalah-logo-en (1).webp">
     <title> SINDALAH ISLAND</title>
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
     
     <style>
             body {
-            font-family: 'Arial', sans-serif;
+            font-family:"Times New Roman", Times, serif;         
             margin: 0;
             padding: 0;
             background-image: linear-gradient(to right,rgb(251, 255, 221),rgb(65, 109, 92),rgb(31, 85, 102),rgb(0, 29, 77));
@@ -20,7 +19,7 @@
         }
 
         header {
-            background-image: url('img/sindala_new1.jpg');
+            background-image: url('img/6.jpg');
              /* Replace 'your_image_url.jpg' with the actual path to your image */
             background-size: cover;
             background-position: center;
@@ -40,112 +39,64 @@
             background-color: rgba(0, 0, 0, 0.285); /* Adjust the opacity here (0.5 is 50% opacity) */
             }
 
-        header h1{
-            font-size: 100px;
-            
-        }
+        header h1 {font-size: 100px; }
 
         nav {
         background-color: #00000011;
-        padding: 1em;
-    }
+        padding: 1em;}
 
-    ul {
-        list-style: none;
+    ul { list-style: none;
         padding: 0;
         margin: 0;
         display: flex;
-        justify-content: center;
-    }
+        justify-content: center; }
 
-    li {
-        margin: 0 40px;
-    }
+    li {  margin: 0 40px; }
 
-    a {
-        text-decoration: none;
+    a { text-decoration: none;
         color: #fff;
         transition: color 0.3s ease; 
-        font-size: 20px;
-    }
+        font-size: 20px; }
 
     a:hover,
-    a:active {
-        color: #111e26; /* Change color on hover or active state */
-    }
+    a:active {   color: #111e26; /* Change color on hover or active state */   }
 
-    section {
-            max-width: 800px;
+    section {max-width: 800px;
             margin: 20px auto;
             padding: 20px;
             background-color: #ffffff00;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: left;
-            border-radius: 10px;
-        }
-        #about {
-            background-color: #f8f8f800;
-            padding: 20px;
-        }
+            border-radius: 10px;   }
 
-        #about p{
-            color: #faf5f5;
-            line-height: 1.8;
-            font-size: 18px;
-            font-weight: 400;
-        }
+        #about {  background-color: #f8f8f800;
+            padding: 20px; }
+
+        #about p{  color: #faf5f5;
+                   line-height: 1.8;
+                   font-size: 18px;
+                   font-weight: 400; }
 
         #about h2{
-            color: #111b25;
+            color: #f3f0f0;
             border-bottom: 2px solid #b3b5b6;
             padding-bottom: 5px;
-            margin-bottom: 20px;
-            
+            margin-bottom: 20px;  }
 
-        }
+        h2 {color: #f3f0f0; }
 
-
-        h2 {
-            color: #f3f0f0;
-        }
-
-        p {
-            color: #f1ebeb;
-        }
-
-        h2 {
-            color: #f3f6f8;
-            
-        }
-
-        p {
-            line-height: 1.6;
-        }
-
+        p  {color: #f1ebeb;
+            line-height: 1.6; }
+        h1 { color: #f3f6f8;}
+        h3 {text-align: left; }
         .hero {
-            background: url('')
-          center/cover no-repeat;
             color: rgba(212, 207, 207, 0.922);
             text-align: center;
-            padding: 100px 0
+            padding: 30px 0
         }
-
         .hero h1 {
             font-size: 3em;
-            margin-bottom: 20px;
-        }
-
-        #back-to-top {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #0c1014;
-            color: #fff;
-            padding: 10px;
-            display: none;
-            cursor: pointer;
-            border-radius: 50%;
-        }
+            margin-bottom: 10px;  }
 
         #weather-section {
             background-color: #02050601;
@@ -230,6 +181,7 @@
             flex: 1;
             margin-left: 20px;
             text-align: left;
+            
         }
 
        #activities h1 {
@@ -241,83 +193,88 @@
             color: #f3f0f0;
             line-height: 1.6;
         }
-
-
         
-        form {
-            max-width: 600px;
-            margin: 50px auto;
-            background-color: #ffffff04;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+       .table-box{
+    margin: 50px auto;
+    text-align: center;
+    color:#f3f0f0; }
 
-        label {
-            display: block;
-            margin-bottom: 8px;
-            color: #555;
-        }
+    .table-row{
+    display: table;
+    width: 50%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #fdfcfc;
+    font-size: 16px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+    }
+    .table-head{
+    background:rgba(255, 255, 255, 0.284);
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+    }
+    .table-head .table-cell{
+     border-right: none;
+    }
+    .table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+    }
+    .first-cell{
+    text-align: center;
+    padding-left: 10px;
+    }
 
-        input,
-        textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
-
-        button {
-            background-color: #3498db;
-            color: #fff;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        button:hover {
+        .Gallery{  display: flex;  }
+        .Gallery .item{
+            flex: 1;
             background-color: #2980b9;
+            height: 70vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center ;
+            transition: flex 1s ease-in-out;   }
+        .item-1{
+            background-image: url("img/6.jpg");
         }
-      
-        @media screen and (max-width: 600px) {
-            li {
-                margin: 10px 0;
-            }
+        .item-2{
+            background-image: url("img/2.png");
         }
-    
-.navbar{
-    height: 12vh;
-    display: flex;
-    align-items: center;
-}
-/*logo change
-.logo{
-    width: 50px;
-    cursor: pointer;
-}*/
+        .item-3{
+            background-image: url("img/3.jpg");
+        }
+        .item-4{
+            background-image: url("img/4.png");
+        }
+        .Gallery .item:hover{
+            flex: 8;
+        }
+
     </style>
 </head>
-<body>
-    
+<body>   
     <div class="navbar">
-        <!---->
-        <!--img src="img/sindalah-logo-en (1).webp" class="logo"-->
         </div>
     <header>
-        <h1> SINDALAH ISLAND</h1>
+        <h1> SINDALAH </h1>
     </header>
 
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#activities">Activities</a></li>
+            <li><a href="#time">Construction Completion Times</a></li>
             <li><a href="#gallery">Gallery</a></li>
+            
         </ul>
     </nav>
-
     <section id="weather-section">
         <div id="weather-info">
             <div class="weather-item">
@@ -340,8 +297,7 @@
         </div>
     </section>
     <div class="hero">
-        <h1>Welcome to Sndala Island</h1>
-        <p>Discover the beauty of this paradise in the heart of Saudi Arabia.</p>
+        <h1>Welcome to Sindalah Island</h1>
     </div>
     <section id="video">
         <h2>Explore Sindalah Island</h2>
@@ -373,7 +329,6 @@
     </section>
     <section id="activities">
         <h2>Activities</h2>
-
         <div class="responsive-section">
             <div class="image-container">
                 <img src="img/diving.jpg" alt="Responsive Image">
@@ -383,7 +338,6 @@
                 <p>Sandala Island is distinguished by its white sandy beaches and clear turquoise waters, making it an ideal destination for swimming and diving. You can enjoy the beauty of coral reefs and colorful underwater fish.</p>
             </div>
         </div>
-
         <div class="responsive-section">
             <div class="image-container">
                 <img src="img/SUFF.png" alt="Responsive Image">
@@ -393,7 +347,6 @@
                 <p>Sundaleh Island is a great destination for surfing, as it is characterized by strong and varied waves. You can try surfing on a wakeboard or kitesurfing board.</p>
             </div>
         </div>
-
         <div class="responsive-section">
             <div class="image-container">
                 <img src="img/Kayaking.jpeg" alt="Responsive Image">
@@ -403,7 +356,6 @@
                 <p>You can explore the island by kayaking. You can paddle around the island or go on an excursion to nearby islands.</p>
             </div>
         </div>
-
         <div class="responsive-section">
             <div class="image-container">
                 <img src="img/Yacht Trips.jpeg" alt="Responsive Image">
@@ -433,92 +385,56 @@
                 <p>You can relax on one of the beautiful beaches on the island and enjoy the stunning views.</p>
             </div>
         </div>
-
         </section>
-
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <div id="carouselExample" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/1.jpeg" class="d-block w-100" alt="First Slide">
-                    <div class="carousel-text">
-                    </div>
+        <section id="time">
+        <div class="table-box">
+            <h3>Construction Completion Times</h3>
+            <div class="table-row table-head">
+                <div class="table-cell first-cell">
+                    <p>SINDALAH</p>
                 </div>
-                <div class="carousel-item">
-                    <img src="img/1.png" class="d-block w-100" alt="Second Slide">
-                    <div class="carousel-text">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/2.png" class="d-block w-100" alt="Third Slide">
-                    <div class="carousel-text">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/3.jpg" class="d-block w-100" alt="Third Slide">
-                    <div class="carousel-text">
-                    </div>
-           </div>
-                <div class="carousel-item">
-                    <img src="img/4.png" class="d-block w-100" alt="Third Slide">
-                    <div class="carousel-text">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/5.jpg" class="d-block w-100" alt="Third Slide">
-                    <div class="carousel-text">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/6.jpg" class="d-block w-100" alt="Third Slide">
-                    <div class="carousel-text">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/7.jpg" class="d-block w-100" alt="Third Slide">
-                    <div class="carousel-text">
-                    </div>
+                <div class="table-cell">
+                    <p>YEAR</p>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
+            <div class="table-row">
+                <div class="table-cell first-cell">
+                    <p>Opening The Island</p>
+                </div>
+                <div class="table-cell">
+                    <p>IN 2024</p>
+                </div>
+
+            </div>
+            <div class="table-row">
+                <div class="table-cell first-cell">
+                    <p>Opening The Hiking</p>
+                </div>
+                <div class="table-cell">
+                    <p>IN 2024</p>
+                </div>
+
+            </div>
+
+            <div class="table-row">
+                <div class="table-cell first-cell">
+                    <p>The Final Finish FOR SINDALAH</p>
+                </div>
+                <div class="table-cell">
+                    <p>IN 2027</p>
+                </div>
+            </div>
+
         </section>
-    <div id="back-to-top">&uarr;</div>
-
-    <script>
-        // JavaScript to handle back-to-top arrow functionality
-        window.onscroll = function() {
-            scrollFunction();
-        };
-
-        function scrollFunction() {
-            var arrow = document.getElementById("back-to-top");
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                arrow.style.display = "block";
-            } else {
-                arrow.style.display = "none";
-            }
-        }
-
-        document.getElementById("back-to-top").addEventListener("click", function() {
-            topFunction();
-        });
-
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <section id="gallery">
+    <div class ="container">
+   <h1> Gallery</h1>
+   <div class="Gallery">
+    <div class="item item-1"></div>
+    <div class="item item-2"></div>
+    <div class="item item-3"></div>
+    <div class="item item-4"></div>
+   </div>
+    </div>
+    </section>
 </body>
-</html>
