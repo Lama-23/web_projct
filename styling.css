@@ -200,7 +200,6 @@ footer span {
     .nav-links {
         display: flex;
         justify-content: center;
-        /* margin-left: 25vw; */
     }
 
     .mobile-menu {
