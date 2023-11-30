@@ -1,11 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family:"Times New Roman", Times, serif;
-    overflow: hidden; 
+    font-family: "Times New Roman", Times, serif;
+    overflow: hidden;
 }
+
 /*navbar*/
-.navbar{
+.navbar {
+    margin-top: 10px;
     position: relative;
     top: 0;
     left: 0;
@@ -15,89 +17,98 @@
     padding: 20px;
     color: whitesmoke;
 }
-.logo{
-    width: 4vw;
+
+.logo {
+    width: 3.5vw;
+    min-width: 35px;
     cursor: pointer;
-    margin-left:25px ;
+    margin-left: 15px;
 }
-.menu_icon{
+
+.menu_icon {
     position: absolute;
-    right: 7500px;
+    visibility: hidden;
     top: 10px;
     width: 40px;
     cursor: pointer;
 }
-.nav-links{
+
+.nav-links {
     display: flex;
     justify-content: center;
     /* margin-left: 25vw; */
 }
-.mobile-menu{
-    margin-top: 0px;
-}
-nav{
+
+nav {
     flex: 1;
     text-align: right;
 }
-nav ul li{
-    list-style:none;
+
+nav ul li {
+    list-style: none;
     display: inline-block;
     margin: 0 30px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 13px;
 }
+
 /* end navbar*/
 
-.container{
-    width:100vw;
-    height:94svh;
+.container {
+    width: 100vw;
+    height: 94svh;
     background-position: center center;
     background-size: cover;
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
-    url(img/background2.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(img/background2.png);
     background-attachment: fixed;
-padding-left: 8%;
-padding-right: 0%;
-box-sizing: border-box;
-overflow: hidden;
+    padding-left: 8%;
+    padding-right: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
 
 }
 
-.but{
-    
+.but {
+
     width: 5vw;
     text-align: center;
     padding: 3px 15px;
     margin-top: 1vh;
-    margin-right:51vw;
-    background-color:#6b6969 ;
+    margin-right: 51vw;
+    background-color: rgba(163, 148, 124, 0.664);
     border-radius: 30px;
     color: whitesmoke;
 }
 
-.row{
+.row {
     display: flex;
     height: 100vh;
     align-items: center;
 }
+
 /* paragrapgh styling*/
-.col-parag{
+.col-parag {
     display: flex;
     flex-direction: column;
 
 }
-.col-parag h1{
+
+.col-parag h1 {
     color: #fff;
     font-size: 35px;
 }
-.col-parag p{
+
+.col-parag p {
     color: #fff;
     font-size: 15px;
     line-height: 20px;
 }
+
 /* .col-parag button{
     width: 10vw;
     color: #000;
@@ -110,23 +121,26 @@ overflow: hidden;
     margin-top: 15px;
 } */
 /*paragraph styling*/
-.col{
+.col {
     flex-basis: 39%;
     margin-bottom: 20vh;
     box-sizing: border-box;
     overflow: hidden;
-    
-    
+
+
 }
-.col h1{
+
+.col h1 {
     color: #fff;
     font-size: 35px;
 }
-.col p{
+
+.col p {
     color: #fff;
     font-size: 15px;
     line-height: 16px;
 }
+
 /* .col button{
     width: 10vw;
     color: #000;
@@ -138,66 +152,81 @@ overflow: hidden;
     outline: none;
     margin-top: 15px;
 } */
-.card{
-width: 13vw;
-min-width: 10rem;
-height: 25vh;
-min-height: 220px;
-display: inline-block;
-border-radius: 8px;
-padding: 20px 25px;
-box-sizing: border-box;
-background-position: center;
-background-size: cover;
-transition: transform 0.5s;
-margin: 10px;
+.card {
+    width: 13vw;
+    min-width: 9rem;
+    height: 25vh;
+    min-height: 220px;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    margin: 10px;
 }
+
 /* .ctn{
     padding: 8px 15px;
     background-color:#464545 ;
     border-radius: 30px;
     color: whitesmoke;
 } */
-.card1{
+.card1 {
     background-image: url(img/theLine.jpg);
 
-}.card2{
+}
+
+.card2 {
     background-image: url(img/leyja.jpg);
 
-}.card3{
+}
+
+.card3 {
     background-image: url(img/oxagon.jpg);
 
 }
-.card4{
+
+.card4 {
     background-image: url(img/trojena.jpg);
 
 }
-.card:hover{
+
+.card:hover {
     transform: translateY(-10px);
 }
-.card h5{
+
+.card h5 {
     text-shadow: 0 0 5px #999;
 }
-.card p{
-color: #000;
-text-shadow: 0 0 5px #726d6d;
+
+.card p {
+    color: #000;
+    text-shadow: 0 0 5px #726d6d;
 }
+
 /*footer*/
 footer {
     background-color: rgba(48, 29, 1, 0.664);
     color: rgb(87, 75, 58)e1e;
     text-align: center;
     padding: 20px;
-  }
-  footer span {
+}
+
+footer span {
     color: rgb(119, 61, 6)
-  }
-  /* end footer*/
+}
 
+/* end footer*/
+.mobile-menu {
+    margin-top: 0px;
+}
 
-  @media screen and (max-width:1044px) {
+@media screen and (max-width:1044px) {
+
     /*mobile navbar start*/
-    .navbar{
+    .navbar {
         position: relative;
         top: 0;
         left: 0;
@@ -207,66 +236,137 @@ footer {
         padding: 20px;
         color: whitesmoke;
     }
-    .logo{
+
+    .logo {
         width: 4vw;
         cursor: pointer;
-        margin-left:25px ;
+        margin-left: 25px;
     }
-    .menu_icon{
+
+    .menu_icon {
         position: absolute;
         right: 75px;
         top: 10px;
         width: 40px;
         cursor: pointer;
     }
-    .nav-links{
+
+    .nav-links {
         display: flex;
         justify-content: center;
         /* margin-left: 25vw; */
     }
-    .mobile-menu{
+
+    .mobile-menu {
         margin-top: 0px;
     }
-    nav{
+
+    nav {
         flex: 1;
         text-align: right;
     }
-    nav ul li{
-        list-style:none;
+
+    nav ul li {
+        list-style: none;
         display: inline-block;
         margin: 0 30px;
     }
-    nav ul li a{
+
+    nav ul li a {
         text-decoration: none;
         color: #fff;
         font-size: 13px;
     }
+
     /*mobile navbar end*/
-    .col{
-        height:70vh;
+    .col {
+        height: 70vh;
         overflow-y: scroll;
     }
+
     ::-webkit-scrollbar {
         width: 12px;
-      }
-      
-      /* Track (the area behind the thumb) */
-      ::-webkit-scrollbar-track {
-        background: transparent ;
-      }
-      
-      /* Handle (the draggable part of the scrollbar) */
-      ::-webkit-scrollbar-thumb {
-        background: #786c54 ;
+    }
+
+    /* Track (the area behind the thumb) */
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    /* Handle (the draggable part of the scrollbar) */
+    ::-webkit-scrollbar-thumb {
+        background: #786c54;
         border-radius: 5px;
-      }
-      
-      /* Handle on hover */
-      ::-webkit-scrollbar-thumb:hover {
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
         background: #645639;
-      }
-    
-  }
+    }
+
+}
 
 /* responsiv for mobile device*/
 
+@media only screen and (max-width:850px) {
+    * {
+        overflow: hidden;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .menu_icon {
+        visibility: visible;
+    }
+
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        background-color: rgba(163, 148, 124, 0.664);
+        margin-top: -90vh;
+        transition: all 0.5s ease;
+    }
+
+    .nav-links li {
+        margin: 30px auto;
+    }
+
+    .mobile-menu {
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+    }
+
+    .container {
+        padding-left: 0%;
+    }
+
+    .col-parag h1,
+    p {
+        margin-left: 8%;
+    }
+
+    .but {
+
+        width: 5vw;
+        text-align: start;
+        /* padding-top:3px;
+        padding-left:10px;
+        padding-right:10px; */
+        padding: 3px 25px;
+        margin-top: 1vh;
+        margin-right: 51vw;
+        border-radius: 25px;
+    }
+
+
+}
