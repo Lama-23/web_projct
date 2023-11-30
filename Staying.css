@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family:"Times New Roman", Times, serif;
-    overflow-x: hidden; 
+    overflow: hidden; 
 }
 /*navbar*/
 .navbar{
@@ -19,21 +19,18 @@
     width: 4vw;
     cursor: pointer;
     margin-left:25px ;
-
 }
 .menu_icon{
     position: absolute;
-    right: 75px;
+    right: 7500px;
     top: 10px;
     width: 40px;
     cursor: pointer;
-
 }
 .nav-links{
     display: flex;
     justify-content: center;
     /* margin-left: 25vw; */
-
 }
 .mobile-menu{
     margin-top: 0px;
@@ -56,23 +53,26 @@ nav ul li a{
 
 .container{
     width:100vw;
-    height:200vh;
+    height:94svh;
     background-position: center center;
     background-size: cover;
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
     url(img/background2.png);
     background-attachment: fixed;
 padding-left: 8%;
-padding-right: 8%;
+padding-right: 0%;
 box-sizing: border-box;
 overflow: hidden;
 
 }
 
 .but{
+    
+    width: 5vw;
+    text-align: center;
     padding: 3px 15px;
-    margin-top: 10px;
-    margin-right: 450px;
+    margin-top: 1vh;
+    margin-right:51vw;
     background-color:#6b6969 ;
     border-radius: 30px;
     color: whitesmoke;
@@ -83,21 +83,22 @@ overflow: hidden;
     height: 100vh;
     align-items: center;
 }
-.col{
-    flex-basis: 50%;
-}
-.col h1{
-    color: #fff;
-    font-size: 35px;
-    
-}
-.col p{
-    color: #fff;
-    font-size: 15px;
-    line-height: 16px;
+/* paragrapgh styling*/
+.col-parag{
+    display: flex;
+    flex-direction: column;
 
 }
-.col button{
+.col-parag h1{
+    color: #fff;
+    font-size: 35px;
+}
+.col-parag p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+}
+/* .col-parag button{
     width: 10vw;
     color: #000;
     font-size: 12px;
@@ -107,10 +108,41 @@ overflow: hidden;
     border-radius: 15px;
     outline: none;
     margin-top: 15px;
+} */
+/*paragraph styling*/
+.col{
+    flex-basis: 39%;
+    margin-bottom: 20vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    
 }
+.col h1{
+    color: #fff;
+    font-size: 35px;
+}
+.col p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 16px;
+}
+/* .col button{
+    width: 10vw;
+    color: #000;
+    font-size: 12px;
+    padding: 6px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    margin-top: 15px;
+} */
 .card{
-width: 200px;
-height: 230px;
+width: 13vw;
+min-width: 10rem;
+height: 25vh;
+min-height: 220px;
 display: inline-block;
 border-radius: 8px;
 padding: 20px 25px;
@@ -119,14 +151,13 @@ background-position: center;
 background-size: cover;
 transition: transform 0.5s;
 margin: 10px;
-
 }
-.ctn{
+/* .ctn{
     padding: 8px 15px;
     background-color:#464545 ;
     border-radius: 30px;
     color: whitesmoke;
-}
+} */
 .card1{
     background-image: url(img/theLine.jpg);
 
@@ -149,20 +180,93 @@ margin: 10px;
 }
 .card p{
 color: #000;
-    text-shadow: 0 0 5px #726d6d;
-
+text-shadow: 0 0 5px #726d6d;
 }
 /*footer*/
 footer {
-    background-color: rgb(41, 27, 6);
+    background-color: rgba(48, 29, 1, 0.664);
     color: rgb(87, 75, 58)e1e;
     text-align: center;
     padding: 20px;
   }
   footer span {
-    color: rgb(121, 121, 121);
+    color: rgb(119, 61, 6)
   }
   /* end footer*/
+
+
+  @media screen and (max-width:1044px) {
+    /*mobile navbar start*/
+    .navbar{
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px;
+        color: whitesmoke;
+    }
+    .logo{
+        width: 4vw;
+        cursor: pointer;
+        margin-left:25px ;
+    }
+    .menu_icon{
+        position: absolute;
+        right: 75px;
+        top: 10px;
+        width: 40px;
+        cursor: pointer;
+    }
+    .nav-links{
+        display: flex;
+        justify-content: center;
+        /* margin-left: 25vw; */
+    }
+    .mobile-menu{
+        margin-top: 0px;
+    }
+    nav{
+        flex: 1;
+        text-align: right;
+    }
+    nav ul li{
+        list-style:none;
+        display: inline-block;
+        margin: 0 30px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 13px;
+    }
+    /*mobile navbar end*/
+    .col{
+        height:70vh;
+        overflow-y: scroll;
+    }
+    ::-webkit-scrollbar {
+        width: 12px;
+      }
+      
+      /* Track (the area behind the thumb) */
+      ::-webkit-scrollbar-track {
+        background: transparent ;
+      }
+      
+      /* Handle (the draggable part of the scrollbar) */
+      ::-webkit-scrollbar-thumb {
+        background: #786c54 ;
+        border-radius: 5px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #645639;
+      }
+    
+  }
 
 /* responsiv for mobile device*/
 
