@@ -45,6 +45,18 @@ nav ul li a {
     font-size: 13px;
 }
 /* end navbar*/
+/* start the footer*/
+footer {
+    background-color: rgba(163, 148, 124, 0.664);
+    color: rgb(87, 75, 58)e1e;
+    text-align: center;
+    padding: 20px;
+}
+
+footer span {
+    color: rgb(119, 61, 6)
+} 
+/* end the footer*/
 @media screen and (max-width:1044px) {
 
     /*mobile navbar start*/

@@ -168,6 +168,7 @@ footer span {
 .mobile-menu {
     margin-top: 0px;
 }
+/* responsiv for ipad device*/
 
 @media screen and (max-width:1044px) {
 

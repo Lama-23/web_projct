@@ -6,25 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <style>
-        #A{
+ 
+        *{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #styling{
             display:flex;
             background-position: center;
-            
             background-size:cover;
             background-repeat: no-repeat; 
             width:auto; 
-            background-attachment: fixed; 
+            background-attachment: fixed;
+            justify-content: left;
+            align-items: center;
+            overflow-x: hidden;
+            background-image:url('img/neom.jpeg'); 
         }
-        *{
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
- body{
-justify-content: left;
-align-items: center;
-height: 100vh;
-overflow-x: hidden;
-background-image:url('img/neom.jpeg');
- }
  form{
 padding: 10px;
  width: 40%;
@@ -71,7 +68,7 @@ outline: none;
     </style>
         <link rel="stylesheet" href="navStyling.css">
 </head>
-<body >
+<body id="styling">
    <div class ="contai">
      <!-- start the navbar-->
      <div class="navbar">
@@ -103,6 +100,14 @@ outline: none;
         <button type="submit"style="font-size: 20px;">Submit</button>
     </form>
     </div>
+     <!-- Start Footer -->
+     <footer>
+        <p>
+            &copy; 2023 - <span>Neom</span>,All Right Reserved. Made By <span> Sadeel</span>
+        </p>
+    </footer>
+    <!-- End Footer -->
+
 </div>
         <!-- for mobile navbar when the btoon clicked-->
         <script>
