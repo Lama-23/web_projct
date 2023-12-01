@@ -16,6 +16,7 @@
             background-image: linear-gradient(to right,rgb(77, 62, 48),rgb(168, 226, 238));
             color:3498db;
             line-height: 1.6;
+            overflow-x: hidden;
 
         }
 
@@ -237,7 +238,10 @@
     padding-left: 10px;
     }
 
-        .Gallery{  display: flex;  }
+        .Gallery{  
+
+            display: flex; 
+         }
         .Gallery .item{
             flex: 1;
             background-color: #2980b9;
@@ -246,6 +250,10 @@
             background-repeat: no-repeat;
             background-position:center ;
             transition: flex 1s ease-in-out;   }
+            
+            html{
+                scroll-behavior: smooth;
+            }
         .item-1{
             background-image: url("img/OXAGON--3.jpg");
         }
