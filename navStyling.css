@@ -175,7 +175,9 @@ footer span {
 
 @media only screen and (max-width:850px) {
     * {
-        overflow: hidden;
+        * {
+            overflow: visible;
+        }
     }
 
     .navbar {

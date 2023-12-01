@@ -273,7 +273,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="sindalah.html">Sindalah</a></li>
                 <li><a href="trojena.html">Trojena</a></li>
-                <li><a href="oxagena.html">Oxagena</a></li>
+                <li><a href="oxagena.html">Oxagon</a></li>
                 <li><a href="uorNames.html">our Names</a></li>
                 <li><a href="contact_us.html">Contact Us</a></li>
             </ul>
@@ -444,4 +444,11 @@
    </div>
     </div>
     </section>
+    <script>
+        const menuBtn = document.querySelector('.menu_icon')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
 </body>
