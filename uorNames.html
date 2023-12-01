@@ -48,11 +48,11 @@
 
   <script>
    window.onload=function(){
-    getrandomname();
+    get_Random_Name();
    }
-function  getrandomname(){
+function  get_Random_Name(){
   var N =document.getElementById("Name");
-  for (var i =N.children.length;i >=0;i++){
+  for (var i =N.children.length;i >=0;i--){
     N.appendChild(N.children[Math.random()* i | 0]);
   }
 }
