@@ -35,16 +35,16 @@
 </div>
          <!-- end the navbar-->
 
-  <h1 style="font-family: 'Times New Roman', Times, serif;color: rgb(62, 154, 81)">Student's Names</h1>
+  <h1 style="font-family: 'Times New Roman', Times, serif;color: rgb(3, 3, 3);background-color: rgba(22, 33, 53, 0.39); width: 25svw;">Student's Names:</h1>
 
 
-<ul  style="color: rgb(132, 144, 214);font-size: 25px ; list-style-type: square; " ; id="Name">
+<ul  style="color: rgb(134, 134, 134);font-size: 25px ; list-style-type: disc" ; id="Name">
 <li> Sadeel Suliman </li>
 <li>Lama marzouq </li>
 <li>Arwa Mohammed </li>
 <li> Ghada Fawaz </li>
 </ul>
-
+   
 
   <script>
    window.onload=function(){
@@ -58,6 +58,7 @@ function  getrandomname(){
 }
 
   </script>
+          <!-- for mobile navbar when the btoon clicked-->
    <script>
     const menuBtn = document.querySelector('.menu_icon')
     const navlinks = document.querySelector('.nav-links')
@@ -65,5 +66,6 @@ function  getrandomname(){
         navlinks.classList.toggle('mobile-menu')
     })
 </script>
+  
 </body>
 </html>
